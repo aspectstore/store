@@ -2,6 +2,7 @@
   body {
     margin: 0px;
      font-family: "Roboto", sans-serif;
+     
 }
 .head {background-color: #3902ba;
 display: flex;
@@ -224,4 +225,41 @@ gap: 12px;
 .home-gimg a:hover{
   background-color: red;
   transition: 0.5s;
+}
+
+.rules {
+  background-color: orangered;
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+  text-decoration: none;
+  position: absolute;
+  right: 525px;
+  top: 1100px;
+  
+  
+}
+
+.rules a{
+  text-decoration: none;
+  color: white;
+  font-family: "Cairo", sans-serif;
+  
+  
+}
+
+.rules:hover{
+  background-color: red;
+  transition: 0.5s;
+}
+
+.roles{
+position: absolute;
+top: 1060px;
+left: 500px;
+
+}
+
+.roles p{
+  font-family: "Noto Sans Arabic", sans-serif;
 }
