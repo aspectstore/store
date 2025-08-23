@@ -205,3 +205,23 @@ gap: 12px;
  position: absolute;
  left: 150px;
 }
+
+.h0me-search:hover{
+  background-color: orangered;
+  transition: 0.5s;
+}
+
+
+
+.home-gimg a{
+  text-decoration: none;
+  background-color: orangered;
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.home-gimg a:hover{
+  background-color: red;
+  transition: 0.5s;
+}
