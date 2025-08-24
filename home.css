@@ -458,7 +458,7 @@ top: 320px;
   background-color: green;
   color: white;
   position: absolute;
-  top: 1200px;
+  top: 1210px;
   left: 515px;
   
 
@@ -550,3 +550,30 @@ top: 320px;
   width: 500px;
   height: 250px;
 }
+
+.mine-buy h4{
+  position: absolute;
+  top: 1100px;
+  left: 600px;
+  color: wheat;
+}
+
+.mine-buy h5{
+  color: whitesmoke;
+  position: absolute;
+  top: 1130px;
+  left: 523px;
+}
+.mine-buy h6{
+  color: whitesmoke;
+  position: absolute;
+  top: 1160px;
+  left: 655px;
+}
+.mine-buy h7{
+  color: whitesmoke;
+  position: absolute;
+  top: 1182px;
+  left: 650px;
+}
+
