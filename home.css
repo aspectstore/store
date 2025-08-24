@@ -24,12 +24,22 @@ padding: 5px 0px ;
 .header-links a{
   background-color: #2b5ffc;
   color: white;
-  padding: 5px 15px;
+  padding: 12px;
   text-decoration: none;
   border-radius: 15px;
+  gap: 5px;
   
 
 }
+.header-links-rules{
+  background-color: #3902ba;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 5px 0px ;
+ border-radius: 0 0 25px 25px;
+}
+
 .header-links a:hover{
   background-color: orangered;
   transition: 0.5s;
@@ -150,7 +160,20 @@ padding: 5px 0px ;
   border: none;
   
 }
+.card-name a{
+  text-decoration: none;
+  color: white;
+  background-color: #2b5ffc;
+  border-radius: 15px;
+  padding: 10px 50px;
+  position: absolute;
+  left: 38px;
+}
 
+.card-name a:hover{
+  background-color: #132c77;
+  transition: 0.5s;
+}
 
 .card-info  {
   display: flex;
@@ -256,10 +279,64 @@ gap: 12px;
 .roles{
 position: absolute;
 top: 1060px;
-left: 500px;
+left: 450px;
 
 }
 
 .roles p{
   font-family: "Noto Sans Arabic", sans-serif;
+}
+
+.ru1les {
+  background-color: orangered;
+  color: white;
+  border-radius: 15px;
+  padding: 15px;
+  text-decoration: none;
+  position: absolute;
+  right: 525px;
+  top: 900px;
+  
+  
+}
+
+.ru1les a{
+  text-decoration: none;
+  color: white;
+  font-family: "Cairo", sans-serif;
+}
+
+.terms-container {
+      max-width: 900px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      font-family: 'Cairo', sans-serif;
+    }
+    .terms-container h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-weight: 700;
+      color: #0d6efd;
+    }
+    .terms-container ul {
+      list-style: none;
+      padding: 0;
+    }
+    .terms-container ul li {
+      background: #f1f1f1;
+      margin: 12px 0;
+      padding: 15px;
+      border-radius: 10px;
+      line-height: 1.8;
+    }
+
+.feed-card{
+  
+
+}
+.feed-card img{
+
 }
